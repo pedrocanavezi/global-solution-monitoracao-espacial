@@ -1,0 +1,22 @@
+tipo,horario,modulo,status,geracao_kwh,consumo_kwh,reserva_pct,temp_interna_c,temp_externa_c,radiacao_msv,qualidade_comunicacao_pct,vento_kmh,event_id,severidade,evento,descricao
+modulo,,suporte_vida,1,,,,,,,,,,,Modulo operacional
+modulo,,energia,1,,,,,,,,,,,Modulo operacional
+modulo,,comunicacao,0,,,,,,,,,,,Falha parcial de antena principal
+modulo,,habitat,1,,,,,,,,,,,Modulo operacional
+modulo,,laboratorio,1,,,,,,,,,,,Modulo operacional
+modulo,,armazenamento,1,,,,,,,,,,,Modulo operacional
+telemetria,00:00,,,38,50,72,22,-63,0.28,91,18,,,,
+telemetria,04:00,,,34,55,66,23,-66,0.31,88,21,,,,
+telemetria,08:00,,,45,59,59,24,-54,0.35,78,28,,,,
+telemetria,12:00,,,49,64,51,25,-47,0.42,64,35,,,,
+telemetria,16:00,,,31,70,41,27,-59,0.61,38,42,,,,
+telemetria,20:00,,,25,76,32,29,-71,0.74,22,55,,,,
+telemetria,24:00,,,29,82,38,31,-68,0.81,18,61,,,,Inconsistencia proposital: reserva subiu apesar de consumo maior que geracao
+evento,,,,,,,,,,,,E001,normal,Inicio do ciclo,Sistema de monitoramento iniciado
+evento,,,,,,,,,,,,E002,alerta,Oscilacao de energia,Geracao solar abaixo do consumo previsto
+evento,,,,,,,,,,,,E003,alerta,Mudanca de prioridade,Energia redirecionada para habitat
+evento,,,,,,,,,,,,E004,critico,Falha de comunicacao,Antena principal sem resposta
+evento,,,,,,,,,,,,E005,alerta,Sensor reiniciado,Sensor de radiacao reinicializado
+evento,,,,,,,,,,,,E006,normal,Modo economia ativado,Laboratorio em consumo reduzido
+evento,,,,,,,,,,,,E007,critico,Radiacao elevada,Nivel de radiacao acima da faixa segura
+evento,,,,,,,,,,,,E008,alerta,Reserva baixa,Baterias abaixo do limite recomendado
