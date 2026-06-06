@@ -2,8 +2,8 @@
 
 ## Equipe
 
-- Nome da equipe: preencher
-- Integrantes e RMs: preencher
+- Nome da equipe: Pedro Henrique Canavezi
+- Integrantes e RMs: Pedro Henrique Canavezi/// RM: 570298
 
 ## Resumo do problema
 
