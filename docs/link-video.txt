@@ -1,1 +1,6 @@
 Preencher com o link exato do video no YouTube como "Nao listado".
+Vídeo principal:
+https://youtu.be/a2v19Ue1Ric
+
+Vídeo complementar - sistema rodando:
+https://youtube.com/shorts/d7iweo3tcYE?feature=share
